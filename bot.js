@@ -5,6 +5,7 @@ client.on('ready', () => {
     
 });
 
+
 client3.on('message', message => {
   var prefix = "3"
     if (message.content.toLowerCase() === prefix + "help") {
